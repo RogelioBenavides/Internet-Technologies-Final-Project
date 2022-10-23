@@ -1,0 +1,23 @@
+.navbar-color{
+    background-color: #AEDADD;
+}
+
+.nav-brand{
+    color: #B0632E;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.nav-text{
+    color: #B0632E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rel-pos{
+    color: #B0632E;
+    position: relative;
+    top: 11px;
+}
