@@ -3,6 +3,52 @@ body{
     background-color: #F5DFC2;
 }
 
+
+/* Cookie Popup */
+
+.popup1 {
+    background-color: #FFFFFF;
+    width: 450;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+.popup1 button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup1 p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.popup1 a {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #B0632E;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+
 /* Navbar */
 
 .navbar-color {
