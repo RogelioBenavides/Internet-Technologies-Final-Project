@@ -191,7 +191,7 @@ body{
 }
 
 .icono{
-    width: 30%;
+    width: 10%;
     height: auto;
     padding-left: 0%;
 }
@@ -335,4 +335,7 @@ body{
 
 .derechos a {
     font-size:x-small;
+}
+.margen-div{
+    margin-bottom: 2%;
 }
