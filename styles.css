@@ -1,0 +1,262 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F5DFC2;
+}
+
+
+/* Cookie Popup */
+
+.popup1 {
+    background-color: #FFFFFF;
+    width: 450;
+    padding: 30px 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: 'Roboto', sans-serif;
+    display: none;
+}
+
+.popup1 button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.popup1 p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.popup1 a {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: auto;
+    text-align: center;
+    background-color: #B0632E;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+
+/* Navbar */
+
+.navbar-color {
+    background-color: #AEDADD;
+}
+
+.nav-brand {
+    color: #B0632E;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 26px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-text {
+    color: #B0632E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.rel-pos {
+    color: #B0632E;
+    position: relative;
+    top: 11px;
+}
+
+/* Banner */
+
+.landing-banner {
+    display: flex;
+    background-color: #F5DFC2;
+    height: 648px;
+    position: relative;
+    text-align: center;
+}
+
+.brown-rec-1 {
+    position: absolute;
+    border-width: 648px 0 0 400px;
+    border-style: solid;
+    border-color: transparent transparent transparent #B0632E;
+}
+
+.sky-rec-1 {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    border-width: 810px 0 0 500px;
+    border-style: solid;
+    border-color: transparent transparent transparent #AEDADD;
+}
+
+.brown-rec-2 {
+    position: absolute;
+    right: 0px;
+    border-width: 0 400px 648px 0;
+    border-style: solid;
+    border-color: transparent #B0632E transparent transparent;
+}
+
+.sky-rec-2 {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    border-width: 0 500px 810px 0;
+    border-style: solid;
+    border-color: transparent #AEDADD transparent transparent;
+}
+
+.landing-text {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 100px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.title-text {
+    font-family: 'Dancing Script', cursive;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    background-color: #F5DFC2;
+    margin-bottom: 0%;
+    
+
+}
+
+.landing {
+    margin: auto;
+}
+
+.landing-button {
+    background: #B0632E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 42px;
+    border-style: none;
+    color: white;
+    font-size: 40px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+
+.landing-img{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    width: 400px;
+}
+
+/* Landing Form */
+
+.landing-form {
+    position: relative;
+    background-color: #F5DFC2;
+    padding: 100px;
+}
+
+.form{
+    background-color: #AEDADD;
+    margin: 0 10%;
+    padding: 5% 10%;
+    border-radius: 42px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.form-button {
+    background: #B0632E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 42px;
+    border-style: none;
+    color: white;
+    font-size: 30px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+
+.bg-brown{
+    background-color: #F5DFC2;
+}
+
+.icono{
+    width: 30%;
+    height: auto;
+    padding-left: 0%;
+}
+
+.auto_text{
+    font-size: 100%;
+}
+
+.brown-text{
+    color: #B0632E;
+    font-size: 350%;
+
+}
+.margenes{
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.iconos-catalogo{
+    width: 45%;
+    margin-left: 27%;
+    
+}
+
+.text-cursive{
+    font-family: 'Dancing Script', cursive;
+}
+
+.redondeado{
+    border:3px solid #B0632E;
+    border-radius:22px;
+ }
+
+ .order-button {
+    background: #AEDADD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 42px;
+    border-style: none;
+    color: black;
+    font-size: 10px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.div-blue{
+    border:3px solid #AEDADD;
+    border-radius:22px;
+    background-color: #AEDADD;
+}
+
+.specific-button {
+    background: #B0632E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+    border-radius: 42px;
+    border-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+.margin-top{
+    margin-top: 10%;
+}
