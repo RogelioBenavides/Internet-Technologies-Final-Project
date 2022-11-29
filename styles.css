@@ -3,7 +3,6 @@ body{
     background-color: #F5DFC2;
 }
 
-
 /* Cookie Popup */
 
 .popup1 {
@@ -47,7 +46,6 @@ body{
     text-decoration: none;
     padding: 5px 0;
 }
-
 
 /* Navbar */
 
@@ -259,4 +257,82 @@ body{
 }
 .margin-top{
     margin-top: 10%;
+}
+
+
+.politica, .acerca, .derechos {
+    margin-left: 10px;
+}
+
+.politica h2, .ayuda-h3, .acerca h1, .derechos h4, .derechos h1 {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color:  #B0632E;
+}
+
+.ayuda-h3 {
+    margin-left: 10px;
+}
+
+.sub, .acerca h2 {
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    color:  #B0632E;
+}
+
+.accordion {
+    background-color: #B0632E;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 85%;
+    margin: 0 7.4%;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #d9a989;
+    font-weight: bold;
+    color: #B0632E;
+}
+  
+.accordion:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+  
+.active:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    width: 85%;
+    margin: 0 7.4%;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    color: #B0632E;
+}
+
+.img-nosotros {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.derechos a {
+    font-size:x-small;
 }
